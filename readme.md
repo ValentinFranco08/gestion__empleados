@@ -45,8 +45,6 @@ gestion_empleados/
 │   └── controllers/
 │       └── sistema_gestion.py       # Actúa como controlador principal, orquestando las operaciones.
 └── main.py                          # Punto de entrada de la aplicación.
-
-
 ---
 
 ## ⚙️ Cómo Ejecutar el Proyecto
