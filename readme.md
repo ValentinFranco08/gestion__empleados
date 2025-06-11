@@ -31,3 +31,42 @@ Este proyecto es un sistema básico de gestión de empleados desarrollado en Pyt
 ## 📂 Estructura del Proyecto
 
 El proyecto sigue una estructura modular dentro de la carpeta `src/` para una mejor organización y separación de responsabilidades.
+
+gestion_empleados/
+├── src/
+│   ├── models/
+│   │   └── empleado.py              # Define la clase Empleado.
+│   ├── builders/
+│   │   └── empleado_builder.py      # Implementa el patrón Builder para Empleado.
+│   ├── singletons/
+│   │   └── base_datos_empleados.py  # Implementa el patrón Singleton para la base de datos de empleados.
+│   ├── views/
+│   │   └── menu_view.py             # Gestiona la interacción con el usuario y la presentación del menú.
+│   └── controllers/
+│       └── sistema_gestion.py       # Actúa como controlador principal, orquestando las operaciones.
+└── main.py                          # Punto de entrada de la aplicación.
+
+
+---
+
+## ⚙️ Cómo Ejecutar el Proyecto
+
+Sigue estos pasos para poner en marcha el sistema:
+
+1.  **Clonar el Repositorio:**
+    ```bash
+    git clone git@github.com:ValentinFranco08/gestion__empleados.git
+    ```
+
+2.  **Navegar al Directorio del Proyecto:**
+    ```bash
+    cd gestion__empleados
+    ```
+
+3.  **Ejecutar la Aplicación:**
+    ```bash
+    python main.py
+    ```
+
+Una vez ejecutado, el sistema presentará un menú interactivo en la consola.
+
